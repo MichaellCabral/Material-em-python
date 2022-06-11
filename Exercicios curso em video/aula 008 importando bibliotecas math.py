@@ -1,4 +1,5 @@
 import math
 n = int(input('digite um número: '))
 raiz = math.sqrt(n)
-print('A raiz de {} é igual a {}'.format(n,raiz))
+print(f'A raiz de {n} é igual a {raiz}')
+#importando módulo de match > raiz quadrada (sqrt)
