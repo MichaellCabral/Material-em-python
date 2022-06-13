@@ -11,3 +11,5 @@ while True:
                 break  # este break é do segundo laço
         print('Você saiu do segundo laço.')
 print('Você saiu do primeiro laço')
+
+# O laço será encerrado quando o usuário inserir a palavra ‘sair’
