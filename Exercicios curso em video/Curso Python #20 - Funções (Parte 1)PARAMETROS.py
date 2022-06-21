@@ -1,12 +1,8 @@
-def mostrar_linhas(): # tem que executar o cabeçalho pra mostrar sua instrucao
-    print(50*"-")
+def mensagem (msg): # a "mensagem" se torna um comando reconhecido pela linguagem python se tornando uma função neste comando, existe a modularização. que o torna conhecido em outros programas
+    print('--'*30)
+    print(msg)
+    print('--'*30)
 
-
-# Entre o def e o programa principal tem que ter duas linhas, como acima. (questao de estetica).
-mostras_linhas()
-print('Capitulo 1')
-mostrar_linha()
-
-mostrar_linhas()
-print('capitulo 2')
-mostrar_linhas()()
+mensagem('conteúdo da mensagem')
+mensagem('mais um outro conteúdo como exemplo')
+mensagem('mais um terceiro conteúdo')

@@ -3,9 +3,9 @@ def mostrar_linhas(): # tem que executar o cabeçalho pra mostrar sua instrucao
 
 
 # Entre o def e o programa principal tem que ter duas linhas, como acima. (questao de estetica).
-mostras_linhas()
+mostrar_linhas()
 print('Capitulo 1')
-mostrar_linha()
+mostrar_linhas()
 
 mostrar_linhas()
 print('capitulo 2')
