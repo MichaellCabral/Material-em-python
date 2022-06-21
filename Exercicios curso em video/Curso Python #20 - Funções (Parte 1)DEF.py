@@ -9,4 +9,4 @@ mostrar_linhas()
 
 mostrar_linhas()
 print('capitulo 2')
-mostrar_linhas()()
+mostrar_linhas()
