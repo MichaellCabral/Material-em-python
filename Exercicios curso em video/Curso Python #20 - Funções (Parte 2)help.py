@@ -6,7 +6,7 @@ def contador(i, f, p):
     p = passo da contagem
     return =  sem retorno
     """    
-    
+
     c = i
     while c <= f:
         print(f'{c}', end = ' ')
