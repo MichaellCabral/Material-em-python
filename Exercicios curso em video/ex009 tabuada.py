@@ -11,3 +11,5 @@ print('{} x {} = {}'.format(n,8,n*8))
 print('{} x {} = {}'.format(n,9,n*9))
 print('{} x {} = {}'.format(n,10,n*10))
 print('_'*12)
+
+# Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.

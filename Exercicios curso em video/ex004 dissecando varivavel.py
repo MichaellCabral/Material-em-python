@@ -7,4 +7,4 @@ print('É alfanumerico?: ', a.isalnum())
 print('Esta em maiuscula?: ', a.isupper())
 print('Ésta em minusculo?: ', a.islower())
 print('Esta capitalizada?: ', a.istitle())
-#Este programa verifica o resultado digitado na variavel e informa se verdadeiro ou falso conforme o digitado
+# Este programa verifica o resultado digitado na variavel e informa se verdadeiro ou falso conforme o digitado
