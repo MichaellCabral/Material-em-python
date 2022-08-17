@@ -1,0 +1,11 @@
+print('\033[31;43mOlá mundo')
+
+
+
+# 0 NONE
+# 1 BOLD
+# 4 UNDERLINE
+# 7 NEGATIVE
+
+# COR DE TEXTO       DE 30 A 37
+# COR DE BACKGROUND  DE 40 A 47
