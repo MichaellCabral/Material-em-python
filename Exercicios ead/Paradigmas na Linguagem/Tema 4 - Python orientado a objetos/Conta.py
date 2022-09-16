@@ -9,15 +9,15 @@ class Conta:
     def sacar(self,valor):
         if self.saldo < valor:
             return False
-        else
-        self.saldo -= valor
+        else:
+            self.saldo -= valor
             return True
-            def gerarextratp(self):
+            def gerarextrato(self):
                 print(f"numero:{self.numero}\n cpf:{self.cpf}\nsaldo:{selfsaldo}")
                 def transfereValor(self,contaDestino,valor):
                     if self.saldo < valor:
                         return ("Não existe saldo suficiente")
-                        else:
+                    else:
                             contaDestino.depositar(valor)
                             self.saldo -= valor
                             return("Transferencia Realizada")
