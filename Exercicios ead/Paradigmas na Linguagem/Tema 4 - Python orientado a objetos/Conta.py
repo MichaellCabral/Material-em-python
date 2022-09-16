@@ -6,18 +6,7 @@ class Conta:
         self.saldo = saldo
     def depositar(self, valor):
         self.saldo += valor
-    def sacar(self,valor):
-        if self.saldo < valor:
-            return False
-        else:
-            self.saldo -= valor
-            return True
-            def gerarextrato(self):
-                print(f"numero:{self.numero}\n cpf:{self.cpf}\nsaldo:{selfsaldo}")
-                def transfereValor(self,contaDestino,valor):
-                    if self.saldo < valor:
-                        return ("Não existe saldo suficiente")
-                    else:
-                            contaDestino.depositar(valor)
-                            self.saldo -= valor
-                            return("Transferencia Realizada")
+    def sacar(self, valor):
+        self.saldo -= valor
+     
+
