@@ -1,7 +1,7 @@
-from pessoa import Pessoa
-class Pessoa: # Iniciar a classe com letra maiúscula
-    p1 = Pessoa # objeto p1 criado a partir da classe Pessoa
-    p2 = Pessoa
-    p1.nome = 'Michaell' # nome é atributo (variável) de p1
-    p2.nome = 'Solange'
-    print(p1.nome)
+class Pessoa:
+    def __init__(self, nome, idade, comendo=False, falando=False):
+        self.nome = nome
+        self.idade = idade
+        self.comendo = comendo
+        self.falando = falando # essas variaveis recebem as variaveis de self na "def __init__"
+        
