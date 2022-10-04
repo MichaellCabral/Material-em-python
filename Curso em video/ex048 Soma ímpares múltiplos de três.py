@@ -1,5 +1,5 @@
 soma = 0 # acumulador
-cont = 0 # acumulador
+cont = 0 # contador
 for c in range(1,501,2):       # listar impares entre 1 e 500
     if c % 3 == 0:             # listar múltiplos de 3
         soma += c # soma os valores respectivamente (soma = soma + c)
