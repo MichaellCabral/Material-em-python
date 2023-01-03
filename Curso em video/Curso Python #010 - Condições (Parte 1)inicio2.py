@@ -8,7 +8,7 @@ print(f'A sua nota foi {media:.1f}')
 if media >= 6.0:
     print('Sua média foi boa! PARABÊNS!')
 else:
-    print('A sua média fli ruim! ESTUDE MAIS!')
+    print('A sua média foi ruim! ESTUDE MAIS!')
 
 # CONDIÇÃO SIMPLIFICADA
 #print('PARABÊNS' if media >= 6 else 'ESTUDE MAIS!')
